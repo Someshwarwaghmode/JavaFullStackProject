@@ -2,7 +2,7 @@ import { MainCarouselData } from "../../homePageSectionData/SlideBannerData/Slid
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 const SlideBannerSection = () => {
-    const items = MainCarouselData.map((item) => <div className="border h-[35rem]"><img className='h-full w-full cursor-pointer' role='presentation' src={item.image} alt={item.title} /></div>);
+    const items = MainCarouselData.map((item) => <div className="border h-[35rem]"><img className='h-full w-full cursor-pointer object-left' role='presentation' src={item.image} alt={item.title} /></div>);
   return (
     <AliceCarousel
         items={items}
