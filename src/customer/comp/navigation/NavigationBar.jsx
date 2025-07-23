@@ -291,8 +291,8 @@ export default function NavigationBar() {
                   <span className="sr-only">Your Company</span>
                   <img
                     alt=""
-                    src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                    className="h-8 w-auto"
+                    src="https://i.fbcd.co/products/original/bd8a1236aefca2f41e9bf84d499bea70c9987e5970e83192279b9ac0abcea2e9.jpg"
+                    className="h-8 w-auto rounded-4xl"
                   />
                 </a>
               </div>
@@ -379,7 +379,7 @@ export default function NavigationBar() {
               </PopoverGroup>
 
               <div className="ml-auto flex items-center">
-                <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
+                {/* <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Sign in
                   </a>
@@ -387,16 +387,16 @@ export default function NavigationBar() {
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Create account
                   </a>
-                </div>
+                </div> */}
 
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 hover:text-gray-800">
                     <img
                       alt=""
-                      src="https://tailwindcss.com/plus-assets/img/flags/flag-canada.svg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwYY48J6POqkfzZc-IkBTngUjJeAs3DAiNg&s"
                       className="block h-auto w-5 shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="ml-3 block text-sm font-medium">IND</span>
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>
