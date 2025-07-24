@@ -2,8 +2,8 @@ import Button from "@mui/material/Button";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import Card from "./Card";
 import { useState } from "react";
+import HomePageCard from "./HomePageCard";
 
 const CarosuelCard = ({data,sectionName}) => {
   const [activeIndex, SetActiveIndex] = useState(0);
@@ -18,7 +18,7 @@ const CarosuelCard = ({data,sectionName}) => {
   const slidenext = () => SetActiveIndex(activeIndex + 1);
   const syncActiveIndex = (e) => SetActiveIndex(e.item);
   console.log(activeIndex);
-  const items = data.slice(1, 10).map((product) => <Card key={product.id} product={product} />);
+  const items = data.slice(1, 10).map((product) => <HomePageCard key={product.id} product={product} />);
 
   return (
     <div className="p-[0rem] relative px-4 lg:px-8 m-auto">

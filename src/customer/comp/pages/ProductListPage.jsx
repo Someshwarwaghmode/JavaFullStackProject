@@ -1,12 +1,11 @@
 import React from 'react'
-import ProductCard from '../productList/ProductCard'
-
+import ProductList from "../productList/ProductList"
 const ProductListPage = () => {
   return (
     <div>
-        <ProductCard/>
+        <ProductList/>
     </div>
   )
 }
 
-export default ProductListPage
+export default ProductListPage;

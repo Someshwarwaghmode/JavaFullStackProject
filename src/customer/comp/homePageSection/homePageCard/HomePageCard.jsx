@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({product}) => {
+const HomePageCard = ({product}) => {
   return (
     <div className="p-[0.5rem] m-[1rem] cursor-pointer flex flex-col items-center bg-white rounded-lg shadow-lg overflow-x-hidden w-[15rem] mx-3">
       <div className="h-[13rem] w-[10rem]">
@@ -20,4 +20,4 @@ const Card = ({product}) => {
   );
 };
 
-export default Card;
+export default HomePageCard;
